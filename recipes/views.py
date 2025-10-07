@@ -3,10 +3,10 @@ from django.http import HttpResponse
 
 # adicionar o app criado a projeto (settings.py)
 def home(request):
-    return render(request, 'home.html')
+    return render(request, 'recipes/pages/home.html')
 
 def contato(request):
-    return render(request, 'contact.html')
+    return render(request, 'recipes/pages/contact.html')
 
 
 
